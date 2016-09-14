@@ -10,11 +10,8 @@ var wordOptions		= [
 	];
 var selectedWord 	= "";
 
-
-
-
 // Start Game Function:
-function startGame(){
+function Game(){
 	// Computer randomly chooses one of the movie titles from the array.
 	selectedWord	= wordOptions[Math.floor(Math.random()*wordOptions.length)];
 	// Break selectedWord apart into individual letters:
@@ -50,3 +47,4 @@ function startGame(){
 	console.log(blanksAndSuccesses);
 }
 
+module.exports = Game;

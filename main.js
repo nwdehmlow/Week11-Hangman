@@ -2,19 +2,11 @@
 // start the game.
 
 // Require word.js:
-var word = require('./word.js');
+var inquirer 	= require('inquirer');
+var word 		= require('./word.js');
 
 // GLOBAL VARIABLES:
 
-// Array of Robert De Niro movie titles.
-var wordOptions		 	= [
-	'GOODFELLAS',
-	'HEAT',
-	'CASINO',
-	'SLEEPERS',
-	'RONIN',
-	];
-var selectedWord 		= "";
 var lettersInWord 		= [];
 var numBlanks 			= 0;
 var blanksAndSuccesses 	= [];

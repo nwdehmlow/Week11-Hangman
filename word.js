@@ -1,4 +1,4 @@
-// Constructor File.
+// Should be a constructor File.
 
 // Contains all of the methods which will check the letters guessed
 // versus the random word selected.
@@ -75,3 +75,5 @@ function roundComplete() {
 		startGame();
 	}
 }
+
+module.exports = Word;
