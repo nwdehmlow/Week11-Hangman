@@ -1,0 +1,20 @@
+{
+  "name": "Week11-Hangman",
+  "version": "1.0.0",
+  "description": "A hangman game that runs entirely in Node.js and uses JavaScript constructors.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddcf/Week11-Hangman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toddcf/Week11-Hangman/issues"
+  },
+  "homepage": "https://github.com/toddcf/Week11-Hangman#readme"
+}
