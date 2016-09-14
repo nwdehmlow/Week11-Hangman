@@ -1,6 +1,9 @@
 // Contains the logic of your app. Running it in Terminal/Bash will
 // start the game.
 
+// Require word.js:
+var word = require('./word.js');
+
 // GLOBAL VARIABLES:
 
 // Array of Robert De Niro movie titles.

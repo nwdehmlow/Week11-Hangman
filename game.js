@@ -1,5 +1,18 @@
 // This file randomly selects a word for the player.
 
+// Array of Robert De Niro movie titles.
+var wordOptions		= [
+	'GOODFELLAS',
+	'HEAT',
+	'CASINO',
+	'SLEEPERS',
+	'RONIN',
+	];
+var selectedWord 	= "";
+
+
+
+
 // Start Game Function:
 function startGame(){
 	// Computer randomly chooses one of the movie titles from the array.
@@ -36,3 +49,4 @@ function startGame(){
 	console.log('Number of Blanks: ' + numBlanks);
 	console.log(blanksAndSuccesses);
 }
+
