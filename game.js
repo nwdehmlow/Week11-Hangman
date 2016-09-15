@@ -1,5 +1,9 @@
 // This file randomly selects a word for the player.
 
+// game.js file should wait be am object with a property of 
+// wordBank. wordBank is just an array of words for the 
+// user to guess.
+
 // Array of Robert De Niro movie titles.
 var wordOptions		= [
 	'GOODFELLAS',
